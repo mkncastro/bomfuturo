@@ -1,0 +1,21 @@
+import tkinter as tk
+
+def criar_quadro_informativo():
+    # Criação da janela principal
+    janela = tk.Tk()
+    janela.title("Quadro Informativo")
+
+    # Criar um rótulo (label) com informações
+    informacao = "Bem-vindo ao Quadro Informativo!"
+    rotulo = tk.Label(janela, text=informacao, font=("Arial", 14))
+    rotulo.pack(padx=20, pady=20)  # Adiciona espaçamento em torno do rótulo
+
+    # Botão para fechar a janela
+    botao_fechar = tk.Button(janela, text="Fechar", command=janela.destroy)
+    botao_fechar.pack(pady=10)
+
+    # Executa o loop principal da janela
+    janela.mainloop()
+
+# Chama a função para criar o quadro informativo
+criar_quadro_informativo()
