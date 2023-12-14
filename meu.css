@@ -3,24 +3,31 @@
 body {
     background-color: ghostwhite;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    text-align: left;
+    margin: 10px;
 }
-h1, nav {
+a{
+    text-decoration: none;
+}
+h1 {
     text-align: center;
 }
 .um{
+    font-size: 1em;
     color: dimgray;
 }    
 .dois{
+    font-size: 1em;
     color: darkgoldenrod;
 }
 .tres{
+    font-size: 1em;
     color: darkred;
 }
 
 section {
-    text-align: left;
+    margin-left: 80px;
 }
 ul, ol {
     list-style-position: inside;
@@ -32,11 +39,19 @@ picture {
 h3{
     text-align: left;
 }
-address {
-    text-align: left;
-    font-size: 0.6em;
-}
+
 footer {
-    font-size: 0.5em;
+    font-size: 0.8em;
+    text-align: center;
 }
+nav {
+    text-align: center;
+    justify-content: space-between;
+}
+
+#icon {
+    margin:5%;
+    text-align: center;
+}
+
 
