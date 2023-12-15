@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: ghostwhite;
+    background-color: rgb(243, 232, 210);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: left;
@@ -10,8 +10,16 @@ body {
 a{
     text-decoration: none;
 }
-h1 {
+h1, h2 {
     text-align: center;
+}
+
+h3{
+    text-align: left;
+}
+
+article { 
+    font-size: 10px;
 }
 .um{
     font-size: 1em;
@@ -32,15 +40,16 @@ section {
 ul, ol {
     list-style-position: inside;
 }
-picture {
-    zoom:normal;
-    zoom:reset;
-}
-h3{
-    text-align: left;
+
+.campo {
+    width: 100%;
+    height: auto;
 }
 
+
+
 footer {
+    margin-top: 10%;
     font-size: 0.8em;
     text-align: center;
 }
