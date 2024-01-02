@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: rgb(243, 232, 210);
+    background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: justify;
@@ -27,14 +27,15 @@ article {
 .um{
     font-size: 1em;
     color: #2a6b77;
+    
 }    
 .dois{
     font-size: 1em;
-    color: darkgoldenrod;
+    color: #9b6d17;
 }
 .tres{
     font-size: 1em;
-    color: darkred;
+    color: #942926;
 }
 
 section {
