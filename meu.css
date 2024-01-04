@@ -51,7 +51,7 @@ ul, ol {
 }
 
 .logo {
-    height: 25px;
+    max-width: 25px;
 
 }
 
