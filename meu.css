@@ -89,10 +89,10 @@ nav {
         border-radius: 5px;
     }
     &:before {
-      background: linear-gradient(to right, red, beige);
+      background: linear-gradient(to right, #eb9b48, beige);
     }
     &:after {
-      background: linear-gradient(to left, red, beige);
+      background: linear-gradient(to left, #eb9b48, beige);
     }
   }
 .cardmenu{
