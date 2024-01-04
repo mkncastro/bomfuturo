@@ -98,11 +98,11 @@ nav {
     }
     
     &:before {
-      background: linear-gradient(to right, yellow, red);
+      background: linear-gradient(to right, red, yellow);
     }
     
     &:after {
-      background: linear-gradient(to left, yellow, red);
+      background: linear-gradient(to left, red, yellow);
     }
   }
 
