@@ -51,16 +51,18 @@ ul, ol {
 
 }
 
+nav {
+    text-align: center;
+    background-color: #489AB8;
+}
 
 footer {
     margin-top: 10%;
     font-size: 0.8em;
     text-align: center;
+    background-color: #489AB8;
 }
-nav {
-    text-align: center;
-    justify-content: space-between;
-}
+
 
 #icon {
     margin:5%;
@@ -122,7 +124,7 @@ nav {
     text-shadow:0px 1px 0px #ffee66;
     
     }
-    .bt:hover {
+.bt:hover {
     background:linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
     
     }
