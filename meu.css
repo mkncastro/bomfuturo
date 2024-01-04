@@ -12,10 +12,6 @@ body {
 a{
     text-decoration: none;
 }
-h2 {
-    font-size: 1em;
-    text-align: left;
-}
 
 h1, h3{
     text-align: center;
@@ -71,43 +67,34 @@ nav {
     text-align: center;
 }
 .divider {
-  display: flex;
-  
-  &:before,
-  &:after {
-    content: "";
-    flex: 1;
+      display: flex;
+      &:before,
+      &:after {
+          content: "";
+          flex: 1;
   }
 }
 .line {
-  align-items: center;
-  margin: 1em -1em;
-  
-  &:before,
-  &:after {
-    height: 1px;
-    margin: 0 1em;
+    align-items: center;
+    margin: 1em -1em;
+    &:before, &:after {
+        height: 1px;
+        margin: 0 1em;
   }
 }
 .glow {
-    &:before,
-    &:after {
+    &:before, &:after {
         height: 6px;
         -webkit-filter: blur(5px);
         border-radius: 5px;
     }
-    
     &:before {
-      background: linear-gradient(to right, red, yellow);
+      background: linear-gradient(to right, red, beige);
     }
-    
     &:after {
-      background: linear-gradient(to left, red, yellow);
+      background: linear-gradient(to left, red, beige);
     }
   }
-
-
-
 .cardmenu{
     -webkit-box-flex: 1;
     flex-grow: 1;
