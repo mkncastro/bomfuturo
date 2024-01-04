@@ -71,12 +71,11 @@ footer {
     text-decoration: none;
     color: white;
 }
-
-
 #icon {
-    margin:5%;
+    margin:10%;
     text-align: center;
 }
+
 .divider {
       display: flex;
       &:before,
