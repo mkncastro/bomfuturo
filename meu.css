@@ -54,6 +54,9 @@ ul, ol {
 nav {
     text-align: center;
     background-color: #489AB8;
+    margin: 1em;
+    padding: 1em;
+    
 }
 
 footer {
@@ -63,7 +66,9 @@ footer {
     text-align: center;
     background-color: #489AB8;
     color: white;
-  
+  }
+#footer {
+    color: white;
 }
 
 
