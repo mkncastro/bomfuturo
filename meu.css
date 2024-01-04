@@ -57,10 +57,13 @@ nav {
 }
 
 footer {
-    margin-top: 10%;
+    margin: 1em;
+    padding: 1em;
     font-size: 0.8em;
     text-align: center;
     background-color: #489AB8;
+    color: white;
+  
 }
 
 
