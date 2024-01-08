@@ -112,11 +112,9 @@ footer {
     font-size:13px;
     padding:6px 10px;
     text-decoration:none;
-    border-color:#eb9b48;
-    background:linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
-    box-shadow:inset 0px 1px 0px 0px #fdf7f0;
-    text-shadow:0px 1px 0px #ffee66;
-    
+    border-color:#e4a461;
+    background: #f7d6b3;
+    padding: 0.5em 5em 0.5em 5em;
     }
 .bt:hover {
     background:linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
