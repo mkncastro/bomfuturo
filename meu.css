@@ -34,7 +34,7 @@ article {
 }
 
 section {
-    margin-left: 80px;
+    margin-left: 3em;
 }
 ul, ol {
     list-style-position: inside;
@@ -94,7 +94,7 @@ footer {
 .glow {
     &:before, &:after {
         height: 6px;
-        -webkit-filter: blur(5px);
+        filter: blur(5px);
         border-radius: 5px;
     }
     &:before {
