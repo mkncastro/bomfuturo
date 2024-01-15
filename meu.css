@@ -40,12 +40,7 @@ ul, ol {
     list-style-position: inside;
 }
 
-.campo {
-    width: 100%;
-    height: auto;
-}
-
-.visita {
+.anuncio {
     width: 100%;
     height: auto;
 }
@@ -126,3 +121,23 @@ footer {
     background:linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
     
     }
+section > .txt:hover {
+    color: white;
+    background: #eb7900;
+    border-radius:5px;
+    margin: 0em 10em 0em 0em;
+
+
+}
+td {
+    padding: 0em 2em 1em 4em;
+}
+td > a {
+    text-decoration: none;
+    color: black;
+
+}
+td:hover {
+    text-decoration: underline;
+    font-weight: bold;
+ }
