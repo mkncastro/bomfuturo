@@ -141,3 +141,7 @@ td:hover {
     text-decoration: underline;
     font-weight: bold;
  }
+
+ .center {
+    text-align: center;
+ }
