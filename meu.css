@@ -62,7 +62,7 @@ body h1, h2{
     border-color:var(--cor4);
     background: var(--cor2);
     padding: 0.5em 10em 0.5em 10em;
-    margin: 0em 5em 0em 1em;
+    margin: 0em 0em 0em 0em;
     width: 100%;
     text-align: center;
     }
@@ -79,9 +79,14 @@ section a {
 }
 
 section a em {
-    display: none;
+    display: block;
+    color: white;
+    background: var(--cor5);
+    border-radius:5px;
+    padding: 5px;
 }
 
+/*
 section:hover em {
     display: block;
     color: white;
@@ -89,7 +94,7 @@ section:hover em {
     border-radius:5px;
     padding: 5px;
 }
-    
+    */
 img.anuncio {
     width: 100%;
     height: auto;
@@ -135,6 +140,11 @@ header > nav {
 #icon {
     margin:10%;
     text-align: center;
+    
+}
+
+.fa {
+    color: var(--cor5)
 }
 
 /* downloads */
@@ -203,7 +213,7 @@ footer {
 
 .line {
     align-items: center;
-    margin: 1em -1em;
+    margin: 1em 1em;
     &:before, &:after {
         height: 1px;
         margin: 0 1em;
