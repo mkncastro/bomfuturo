@@ -23,6 +23,7 @@ body {
     margin: auto;
     padding: 1em 2em;
     max-width: 800px;
+    line-height: 1.4em;
  
 }
 
@@ -42,9 +43,10 @@ body > nav > a {
     font-weight: bold;
     transition-duration: .5s;
 }
-body > nav > a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5)
+
+ul a:hover {
+    color: var(--cor5);
+    text-decoration: underline;
 }
 
 body h1, h2{
@@ -61,7 +63,7 @@ body h1, h2{
     text-decoration:none;
     border-color:var(--cor4);
     background: var(--cor2);
-    padding: 0.5em 10em 0.5em 10em;
+    padding: 0.5em 1em 0.5em 1em;
     margin: 0em 0em 0em 0em;
     width: 100%;
     text-align: center;
@@ -86,15 +88,31 @@ section a em {
     padding: 5px;
 }
 
-/*
-section:hover em {
-    display: block;
-    color: white;
-    background: var(--cor5);
-    border-radius:5px;
-    padding: 5px;
+aside ul i {
+    font-size: 25px;
+    color: var(--cor5);
+    vertical-align: middle;
+    margin-top: 5px;
+    
+
 }
-    */
+
+ul p i {
+    font-size: 25px;
+    color: var(--cor5);
+    margin-top: 5px;
+
+}
+
+ul p a:hover {
+    color: var(--cor5);
+    text-decoration: underline;
+}
+
+aside ul i.fa-location-dot {
+    margin-left: 4px;
+}
+
 img.anuncio {
     width: 100%;
     height: auto;
@@ -133,18 +151,19 @@ img.logo {
 header > nav {
     text-align: center;
     background-color: var(--cor6);
-    margin: 1em;
-    padding: 1em;
+    margin: 0.3em;
+    padding: 0.3em;
     
 }
-#icon {
-    margin:10%;
+header nav a i {
+    margin: 0.5em 2em;
     text-align: center;
+    font-size: 2em;
+    color: var(--cor5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
-}
-
-.fa {
-    color: var(--cor5)
 }
 
 /* downloads */
@@ -185,6 +204,10 @@ hr {
 
 .center {
     text-align: center;
+
+ }
+ aside img {
+    cursor: pointer;
  }
 
 footer {
@@ -213,7 +236,7 @@ footer {
 
 .line {
     align-items: center;
-    margin: 1em 1em;
+    margin-top: 1em;
     &:before, &:after {
         height: 1px;
         margin: 0 1em;
