@@ -231,6 +231,23 @@ aside a:hover {
  }
 
 /* anuncios */
+table, td {
+    border-collapse: collapse; border: 1px solid black;
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 1em;
+    margin: auto;
+}
+
+th {
+    border-collapse: collapse; border: 1px solid black;
+    text-align: center;
+    background-color: var(--cor2);
+}
+
+
+
+
 article > p {
     font-size: 0.8em;
     text-align: justify;
