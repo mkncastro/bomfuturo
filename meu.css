@@ -162,10 +162,6 @@ aside ul i.fa-location-dot {
     margin-left: 4px;
 }
 
-img.anuncio {
-    width: 100%;
-    height: auto;
-}
 
 
 /* sessoes apostila */
@@ -243,6 +239,11 @@ th {
     border-collapse: collapse; border: 1px solid black;
     text-align: center;
     background-color: var(--cor2);
+}
+
+img.anuncio {
+    width: 100%;
+    height: auto;
 }
 
 
