@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Reuniões da semana | Bom Futuro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="meu.css">
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+        
+        window.onload = function() {
+            showSection('section0812'); // Mostra a primeira seção por padrão
+        };
+        </script>
+</head>
+<body>
+    <nav>
+        <h1 style="color: white;">Programação</h1>
+    </nav>
+    <section>
+
+            <h2 class="divider line glow"><a class="nav-link active" href="#" onclick="showSection('section0812')" ><button class="bt" type="button">8 de dezembro</button></a></h2>
+            <div id="section0812" class="content-section">
+        <ul>
+            <li>Presidente / oração inicial: Paulino Silva
+            <h2>Discurso  193 📖 	Os problemas de hoje logo serão coisa do passado	 </h2>
+            <li>Orador (30min) <strong>Mozart Pereira </strong>
+            <li>Leitor de A Sentinela:   Cláudio Coelho
+            <li>Oração
+                <p>Limpeza após as reuniões🧹 Grupo 2 </p>
+        </ul>
+        </div>
+
+        <a class="center" href="https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-outubro-2024/"><img style="height: 150px;" src="https://cms-imgp.jw-cdn.org/img/p/w/202410/T/pt/w_T_202410_lg.jpg"></a>
+
+        <h2 class="divider line glow"><a class="nav-link active" href="#" onclick="showSection('section1512')" ><button class="bt" type="button">15 de dezembro</button></a></h2>
+        <div id="section1512" class="content-section">
+        <ul>
+            <li>Presidente / oração inicial: Cláudio Lima
+            <h2>Discurso  108 📖 	Você pode encarar o futuro com confiança!	 </h2>
+            <li>Orador (30min) <strong>Geovani Pantoja </strong>
+            <li>Leitor de A Sentinela :   Marco Alexandre
+            <li>Oração
+                <p>Limpeza após as reuniões🧹 Grupo 3 </p>
+        </ul>
+        </div>
+
+        <h2 class="divider line glow"><a class="nav-link active" href="#" onclick="showSection('section2212')" ><button class="bt" type="button">22 de dezembro</button></a></h2>
+        <div id="section2212" class="content-section">
+        <ul>
+            <li>Presidente / oração inicial: Cláudio Coelho
+            <h2>Discurso  69 📖 	Por que mostrar amor abnegado?	 </h2>
+            <li>Orador (30min) <strong>Marcelo Neves </strong>
+            <li>Leitor de A Sentinela:   Geovani Pantoja
+            <li>Oração
+                <p>Limpeza após as reuniões🧹 Grupo 4</p>
+        </ul>
+        </div>
+
+        <h2 class="divider line glow"><a class="nav-link active" href="#" onclick="showSection('section2912')" ><button class="bt" type="button">29 de dezembro</button></a></h2>
+        <div id="section2912" class="content-section">
+            <ul>
+                <li>Presidente / oração inicial: Luiz Pantoja
+                <h2>Discurso  120 📖 	Por que se submeter à regência de Deus agora	 </h2>
+                <li>Orador (30min) <strong>Marco Alexandre </strong>
+                
+                <li>Leitor de A Sentinela:   Paulino Silva
+                <li>Oração
+            </ul><p>Limpeza após as reuniões🧹 Grupo 1 </li></p>
+        </div>
+
+        <h2 class="divider line glow"><a class="nav-link active" href="#" onclick="showSection('section0501')" ><button class="bt" type="button">05 de janeiro</button></a></h2>
+        <div id="section0501" class="content-section">
+           <ul>
+                <li>Presidente / oração inicial: GeovaniPantoja
+                <h2>Discurso  54 📖 	Fortaleça sua fé em Deus e em suas promessas	 </h2>
+                <li>Orador (30min) <strong>Paulino Silva </strong>
+                <li>Leitor de A Sentinela: Marcelo Neves
+                <li>Oração
+            </ul><p>Limpeza após as reuniões🧹 Grupo 2 </li>
+                </div>
+
+
+    </section>
+
+ 
+    </div>
+</body>
+</html>
