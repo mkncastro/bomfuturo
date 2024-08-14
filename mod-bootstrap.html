@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar Conteúdo com Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        window.onload = function() {
+            showSection('section1'); // Mostra a primeira seção por padrão
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">OLIMPÍADAS</h1>
+        <nav class="nav nav-pills mb-3">
+            <a class="nav-link active" href="#" onclick="showSection('section1')">Seção 1</a>
+            <a class="nav-link active" href="#" onclick="showSection('section2')">Seção 2</a>
+            <a class="nav-link active" href="#" onclick="showSection('section3')">Seção 3</a>
+        </nav>
+        <div id="section1" class="content-section">
+            <h2>Gabi prega foco no ouro: “Qualquer resultado menor vai ser frustração muito grande”</h2>
+            <p>O Brasil venceu a República Dominicana e está classificada para as semifinais das Olimpíadas de Paris, sem perder nenhum set até agora. Uma campanha que mostra a força e o foco da seleção verde e amarela, como diz Gabi. Em entrevista após o triunfo desta terça-feira (6), a capitã da equipe nacional afirmou que a preparação da equipe é voltada à busca pelo lugar mais alto do pódio na capital francesa:
+
+                – Viemos aqui para buscar o ouro. Qualquer resultado menor que esse será uma frustração muito grande. Mas acreditamos no processo, no dia a dia. Sabemos da dificuldade das quartas de final, e agora é ir jogo a jogo.</p>
+        </div>
+        <div id="section2" class="content-section">
+            <h2>Rebeca Andrade fatura mais que Simone Biles nas Olimpíadas 2024; veja valores</h2>
+            <p>Rebeca Andrade finalizou sua participação nas Olimpíadas 2024 com uma premiação maior do que sua principal concorrente, Simone Biles. A ginasta brasileira conseguiu quatro medalhas, tornou-se a maior medalhista da história do Brasil, e, de quebra, faturou R$ 826 mil - mais do que os R$ 780 mil de Biles.
+
+            </p>
+        </div>
+        <div id="section3" class="content-section">
+            <h2>Confira a comparação entre Rebeca Andrade e Simone Biles:</h2>
+            <p>Rebeca Andrade
+                Premiação total: R$ 826 mil
+                1 Ouro: R$ 350 mil
+                2 Pratas: R$ 210 mil
+                1 Bronze: R$ 56 mil(valor após divisão com a equipe de ginástica artística)
+                Simone Biles
+                Premiação total: 135 mil dólares (R$ 780 mil)
+                3 Ouros: 112,5 mil dólares (R$ 649,6 mil)
+                1 Prata: 22,5 mil dólares (R$ 129,9 mil)</p>
+        </div>
+    </div>
+</body>
+</html>
