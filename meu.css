@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor0:#F2F1EF;
-    --cor1:#f3e5c8;
-    --cor2:#f7d6b3;
-    --cor3:#ebc16e;
-    --cor4:#ebae34;
-    --cor5:#eb9b48;
-    --cor6:#489AB8;
+    --cor0:#c8f3ce;
+    --cor1:#8FBC8F;
+    --cor2:#66CDAA;
+    --cor3:#3CB371;
+    --cor4:#32CD32;
+    --cor5:#228B22;
+    --cor6:#006400;
 }
 
 * {
@@ -116,6 +116,8 @@ body h1, h2{
     margin: 0em 0em 0em 0em;
     width: 100%;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
     }
 
 .bt:hover {
@@ -256,6 +258,7 @@ article > p {
     text-indent: 1em;
 }
 
+
 article strong {
     background-color: var(--cor2);
     font-weight: bolder;
@@ -268,6 +271,14 @@ hr {
     border-color: var(--cor2);
     margin: 1em 6em;
 
+}
+
+h3 {
+    text-align: center;
+    background-color: var(--cor2);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.3em;
 }
 
 .center {
