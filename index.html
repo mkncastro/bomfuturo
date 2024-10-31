@@ -16,7 +16,10 @@
                 section.style.display = 'none';
             });
             document.getElementById(sectionId).style.display = 'block';
-        };
+        }
+        window.onload = function() {
+            showSection('idnone'); // Mostra a primeira seção por padrão
+        };;
         </script>
 </head>
 <body>
