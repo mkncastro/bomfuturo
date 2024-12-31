@@ -259,7 +259,7 @@ article > p {
 }
 
 
-article strong {
+strong {
     background-color: var(--cor2);
     font-weight: bolder;
     text-transform: uppercase;
