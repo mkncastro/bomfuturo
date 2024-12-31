@@ -193,6 +193,9 @@ img.logo {
     max-width: 25px;
     vertical-align: middle;
 }
+div > img {
+    height: 100px;
+}
 
 /* semanas */
 header > nav {
