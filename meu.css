@@ -193,8 +193,9 @@ img.logo {
     max-width: 25px;
     vertical-align: middle;
 }
+
 img {
-    height: 100px;
+    max-width: 100px;
 }
 
 /* semanas */
