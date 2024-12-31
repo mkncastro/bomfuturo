@@ -193,7 +193,7 @@ img.logo {
     max-width: 25px;
     vertical-align: middle;
 }
-div > img {
+img {
     height: 100px;
 }
 
