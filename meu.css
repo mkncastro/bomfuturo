@@ -248,7 +248,7 @@ th {
     background-color: var(--cor2);
 }
 
-img.anuncio {
+.anuncio {
     width: 100%;
     height: auto;
 }
